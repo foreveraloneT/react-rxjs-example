@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -19,13 +19,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-input {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 30vw;
+  margin-bottom: 32px;
 }
 
 @keyframes App-logo-spin {
